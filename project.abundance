@@ -52,6 +52,10 @@
         {
           "name": "Shape 1",
           "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
         }
       ]
     },
@@ -152,7 +156,7 @@
       "y": 0.4295612009237875,
       "uniqueID": "id-1939",
       "name": "GroupOfTen",
-      "value": 1
+      "value": 0
     },
     {
       "atomType": "Constant",
@@ -160,7 +164,7 @@
       "y": 0.6143187066974596,
       "uniqueID": "id-3100",
       "name": "GroupOfTen_1",
-      "value": 2
+      "value": 1
     },
     {
       "atomType": "Molecule",
@@ -375,7 +379,7 @@
         },
         {
           "name": "GroupOfTen",
-          "ioValue": 1
+          "ioValue": 0
         }
       ],
       "topLevel": false,
@@ -423,7 +427,7 @@
           "ioValues": [
             {
               "name": "n",
-              "ioValue": 1
+              "ioValue": 0
             }
           ],
           "currentEquation": "10*n+1"
@@ -437,7 +441,7 @@
           "ioValues": [
             {
               "name": "n",
-              "ioValue": 1
+              "ioValue": 0
             }
           ],
           "currentEquation": "10*n+2"
@@ -451,7 +455,7 @@
           "ioValues": [
             {
               "name": "n",
-              "ioValue": 1
+              "ioValue": 0
             }
           ],
           "currentEquation": "10*n+3"
@@ -465,7 +469,7 @@
           "ioValues": [
             {
               "name": "n",
-              "ioValue": 1
+              "ioValue": 0
             }
           ],
           "currentEquation": "10*n+4"
@@ -479,77 +483,77 @@
           "ioValues": [
             {
               "name": "n",
-              "ioValue": 1
+              "ioValue": 0
             }
           ],
           "currentEquation": "10*n+5"
         },
         {
           "atomType": "Equation",
-          "x": 0.33603020496224384,
-          "y": 0.3325635103926097,
+          "x": 0.39374325782092773,
+          "y": 0.2678983833718245,
           "uniqueID": "id-1924",
           "name": "10*n+6",
           "ioValues": [
             {
               "name": "n",
-              "ioValue": 1
+              "ioValue": 0
             }
           ],
           "currentEquation": "10*n+6"
         },
         {
           "atomType": "Equation",
-          "x": 0.3344120819848975,
-          "y": 0.4503464203233256,
+          "x": 0.39104638619201726,
+          "y": 0.3856812933025404,
           "uniqueID": "id-1927",
           "name": "10*n+7",
           "ioValues": [
             {
               "name": "n",
-              "ioValue": 1
+              "ioValue": 0
             }
           ],
           "currentEquation": "10*n+7"
         },
         {
           "atomType": "Equation",
-          "x": 0.3333333333333333,
-          "y": 0.584295612009238,
+          "x": 0.3948220064724919,
+          "y": 0.5450346420323325,
           "uniqueID": "id-1930",
           "name": "10*n+8",
           "ioValues": [
             {
               "name": "n",
-              "ioValue": 1
+              "ioValue": 0
             }
           ],
           "currentEquation": "10*n+8"
         },
         {
           "atomType": "Equation",
-          "x": 0.3354908306364617,
+          "x": 0.39428263214670983,
           "y": 0.6997690531177828,
           "uniqueID": "id-1933",
           "name": "10*n+9",
           "ioValues": [
             {
               "name": "n",
-              "ioValue": 1
+              "ioValue": 0
             }
           ],
           "currentEquation": "10*n+9"
         },
         {
           "atomType": "Equation",
-          "x": 0.3365695792880259,
-          "y": 0.8452655889145496,
+          "x": 0.3926645091693636,
+          "y": 0.836027713625866,
           "uniqueID": "id-1936",
           "name": "10*n+10",
           "ioValues": [
             {
               "name": "n",
-              "ioValue": 1
+              "ioValue": 0
             }
           ],
           "currentEquation": "10*n+10"
@@ -604,8 +608,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.2831715210355987,
-          "y": 0.13163972286374134,
+          "x": 0.2707659115426106,
+          "y": 0.18475750577367206,
           "uniqueID": "id-1526",
           "name": "Slicer",
           "ioValues": [
@@ -619,7 +623,7 @@
             },
             {
               "name": "Layer",
-              "ioValue": 11
+              "ioValue": 1
             }
           ],
           "topLevel": false,
@@ -699,7 +703,7 @@
               "ioValues": [
                 {
                   "name": "z",
-                  "ioValue": 11
+                  "ioValue": 1
                 },
                 {
                   "name": "w",
@@ -728,7 +732,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 31.75
+                  "ioValue": 0
                 }
               ]
             },
@@ -800,8 +804,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.27238403451995685,
-          "y": 0.27020785219399535,
+          "x": 0.27184466019417475,
+          "y": 0.32101616628175517,
           "uniqueID": "id-2539",
           "name": "Slicer",
           "ioValues": [
@@ -815,7 +819,7 @@
             },
             {
               "name": "Layer",
-              "ioValue": 12
+              "ioValue": 2
             }
           ],
           "topLevel": false,
@@ -895,7 +899,7 @@
               "ioValues": [
                 {
                   "name": "z",
-                  "ioValue": 12
+                  "ioValue": 2
                 },
                 {
                   "name": "w",
@@ -924,7 +928,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 34.925
+                  "ioValue": 3.175
                 }
               ]
             },
@@ -996,8 +1000,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.2702265372168285,
-          "y": 0.3903002309468822,
+          "x": 0.2691477885652643,
+          "y": 0.4503464203233256,
           "uniqueID": "id-2576",
           "name": "Slicer",
           "ioValues": [
@@ -1011,7 +1015,7 @@
             },
             {
               "name": "Layer",
-              "ioValue": 13
+              "ioValue": 3
             }
           ],
           "topLevel": false,
@@ -1091,7 +1095,7 @@
               "ioValues": [
                 {
                   "name": "z",
-                  "ioValue": 13
+                  "ioValue": 3
                 },
                 {
                   "name": "w",
@@ -1120,7 +1124,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 38.099999999999994
+                  "ioValue": 6.35
                 }
               ]
             },
@@ -1192,8 +1196,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.2707659115426106,
-          "y": 0.5288683602771362,
+          "x": 0.2702265372168285,
+          "y": 0.5658198614318707,
           "uniqueID": "id-2619",
           "name": "Slicer",
           "ioValues": [
@@ -1207,7 +1211,7 @@
             },
             {
               "name": "Layer",
-              "ioValue": 14
+              "ioValue": 4
             }
           ],
           "topLevel": false,
@@ -1287,7 +1291,7 @@
               "ioValues": [
                 {
                   "name": "z",
-                  "ioValue": 14
+                  "ioValue": 4
                 },
                 {
                   "name": "w",
@@ -1316,7 +1320,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 41.275
+                  "ioValue": 9.524999999999999
                 }
               ]
             },
@@ -1388,8 +1392,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.27292340884573896,
-          "y": 0.6766743648960739,
+          "x": 0.2696871628910464,
+          "y": 0.7090069284064665,
           "uniqueID": "id-2656",
           "name": "Slicer",
           "ioValues": [
@@ -1403,7 +1407,7 @@
             },
             {
               "name": "Layer",
-              "ioValue": 11
+              "ioValue": 5
             }
           ],
           "topLevel": false,
@@ -1483,7 +1487,7 @@
               "ioValues": [
                 {
                   "name": "z",
-                  "ioValue": 11
+                  "ioValue": 5
                 },
                 {
                   "name": "w",
@@ -1512,7 +1516,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 31.75
+                  "ioValue": 12.7
                 }
               ]
             },
@@ -1584,8 +1588,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.46062567421790723,
-          "y": 0.2448036951501155,
+          "x": 0.46332254584681765,
+          "y": 0.25404157043879905,
           "uniqueID": "id-2693",
           "name": "Slicer",
           "ioValues": [
@@ -1599,7 +1603,7 @@
             },
             {
               "name": "Layer",
-              "ioValue": 16
+              "ioValue": 6
             }
           ],
           "topLevel": false,
@@ -1679,7 +1683,7 @@
               "ioValues": [
                 {
                   "name": "z",
-                  "ioValue": 16
+                  "ioValue": 6
                 },
                 {
                   "name": "w",
@@ -1708,7 +1712,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 47.625
+                  "ioValue": 15.875
                 }
               ]
             },
@@ -1795,7 +1799,7 @@
             },
             {
               "name": "Layer",
-              "ioValue": 17
+              "ioValue": 7
             }
           ],
           "topLevel": false,
@@ -1875,7 +1879,7 @@
               "ioValues": [
                 {
                   "name": "z",
-                  "ioValue": 17
+                  "ioValue": 7
                 },
                 {
                   "name": "w",
@@ -1904,7 +1908,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 50.8
+                  "ioValue": 19.049999999999997
                 }
               ]
             },
@@ -1991,7 +1995,7 @@
             },
             {
               "name": "Layer",
-              "ioValue": 18
+              "ioValue": 8
             }
           ],
           "topLevel": false,
@@ -2071,7 +2075,7 @@
               "ioValues": [
                 {
                   "name": "z",
-                  "ioValue": 18
+                  "ioValue": 8
                 },
                 {
                   "name": "w",
@@ -2100,7 +2104,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 53.974999999999994
+                  "ioValue": 22.224999999999998
                 }
               ]
             },
@@ -2187,7 +2191,7 @@
             },
             {
               "name": "Layer",
-              "ioValue": 19
+              "ioValue": 9
             }
           ],
           "topLevel": false,
@@ -2267,7 +2271,7 @@
               "ioValues": [
                 {
                   "name": "z",
-                  "ioValue": 19
+                  "ioValue": 9
                 },
                 {
                   "name": "w",
@@ -2296,7 +2300,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 57.15
+                  "ioValue": 25.4
                 }
               ]
             },
@@ -2383,7 +2387,7 @@
             },
             {
               "name": "Layer",
-              "ioValue": 20
+              "ioValue": 10
             }
           ],
           "topLevel": false,
@@ -2463,7 +2467,7 @@
               "ioValues": [
                 {
                   "name": "z",
-                  "ioValue": 20
+                  "ioValue": 10
                 },
                 {
                   "name": "w",
@@ -2492,7 +2496,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 60.324999999999996
+                  "ioValue": 28.575
                 }
               ]
             },
@@ -2721,11 +2725,6 @@
         },
         {
           "ap2Name": "Layer",
-          "ap1ID": "id-1907",
-          "ap2ID": "id-2656"
-        },
-        {
-          "ap2Name": "Layer",
           "ap1ID": "id-1912",
           "ap2ID": "id-2539"
         },
@@ -2738,6 +2737,11 @@
           "ap2Name": "Layer",
           "ap1ID": "id-1918",
           "ap2ID": "id-2619"
+        },
+        {
+          "ap2Name": "Layer",
+          "ap1ID": "id-1921",
+          "ap2ID": "id-2656"
         },
         {
           "ap2Name": "Layer",
@@ -2824,8 +2828,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.2367853290183387,
-      "y": 0.5565819861431871,
+      "x": 0.2464940668824164,
+      "y": 0.584295612009238,
       "uniqueID": "id-3101",
       "name": "10Slicer",
       "ioValues": [
@@ -2839,7 +2843,7 @@
         },
         {
           "name": "GroupOfTen",
-          "ioValue": 2
+          "ioValue": 1
         }
       ],
       "topLevel": false,
@@ -4935,6 +4939,11 @@
     {
       "ap2Name": "Shape 1",
       "ap1ID": "id-1521",
+      "ap2ID": "id-1208"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-3101",
       "ap2ID": "id-1208"
     }
   ],
