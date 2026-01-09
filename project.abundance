@@ -33,8 +33,8 @@
     },
     {
       "atomType": "Import",
-      "x": 0.4525350593311759,
-      "y": 0.48729792147806006,
+      "x": 0.018338727076591153,
+      "y": 0.26558891454965355,
       "uniqueID": "id-588",
       "fileName": "Dust Hose 2.step",
       "name": "Import",
@@ -44,99 +44,11 @@
       "SVGwidth": 10
     },
     {
-      "atomType": "Rectangle",
-      "x": 0.1941747572815534,
-      "y": 0.9076212471131639,
-      "uniqueID": "id-814",
-      "ioValues": [
-        {
-          "name": "x length",
-          "ioValue": 10000
-        },
-        {
-          "name": "y length",
-          "ioValue": 10000
-        }
-      ]
-    },
-    {
-      "atomType": "Move",
-      "x": 0.19525350593311758,
-      "y": 0.7759815242494226,
-      "uniqueID": "id-818",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "xDist",
-          "ioValue": 0
-        },
-        {
-          "name": "yDist",
-          "ioValue": 0
-        },
-        {
-          "name": "zDist",
-          "ioValue": 3.175
-        }
-      ]
-    },
-    {
-      "atomType": "Move",
-      "x": 0.19902912621359223,
-      "y": 0.6351039260969977,
-      "uniqueID": "id-824",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "xDist",
-          "ioValue": 0
-        },
-        {
-          "name": "yDist",
-          "ioValue": 0
-        },
-        {
-          "name": "zDist",
-          "ioValue": 3.175
-        }
-      ]
-    },
-    {
-      "atomType": "Move",
-      "x": 0.22276159654800431,
-      "y": 0.3764434180138568,
-      "uniqueID": "id-830",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "xDist",
-          "ioValue": 0
-        },
-        {
-          "name": "yDist",
-          "ioValue": 0
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0
-        }
-      ]
-    },
-    {
       "atomType": "Molecule",
-      "x": 0.3678532901833873,
-      "y": 0.41570438799076215,
+      "x": 0.16235167206040993,
+      "y": 0.16859122401847573,
       "uniqueID": "id-836",
-      "name": "Molecule",
+      "name": "Slicer",
       "ioValues": [
         {
           "name": "Cutting_shape",
@@ -144,11 +56,11 @@
         },
         {
           "name": "Woodthick",
-          "ioValue": 10
+          "ioValue": 3.175
         },
         {
           "name": "Layer",
-          "ioValue": 10
+          "ioValue": 1
         }
       ],
       "topLevel": false,
@@ -215,7 +127,7 @@
             },
             {
               "name": "height",
-              "ioValue": 10
+              "ioValue": 3.175
             }
           ]
         },
@@ -228,15 +140,15 @@
           "ioValues": [
             {
               "name": "z",
-              "ioValue": 10
+              "ioValue": 1
             }
           ],
           "currentEquation": "z-1"
         },
         {
           "atomType": "Move",
-          "x": 0.38133764832793954,
-          "y": 0.3579676674364896,
+          "x": 0.39428263214670983,
+          "y": 0.628175519630485,
           "uniqueID": "id-866",
           "ioValues": [
             {
@@ -256,9 +168,30 @@
               "ioValue": 0
             }
           ]
+        },
+        {
+          "atomType": "Intersection",
+          "x": 0.4994606256742179,
+          "y": 0.3764434180138568,
+          "uniqueID": "id-872",
+          "ioValues": [
+            {
+              "name": "geometry1",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "geometry2",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
         }
       ],
       "allConnectors": [
+        {
+          "ap2Name": "geometry2",
+          "ap1ID": "id-840",
+          "ap2ID": "id-872"
+        },
         {
           "ap2Name": "height",
           "ap1ID": "id-843",
@@ -273,6 +206,612 @@
           "ap2Name": "geometry",
           "ap1ID": "id-849",
           "ap2ID": "id-853"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-853",
+          "ap2ID": "id-866"
+        },
+        {
+          "ap2Name": "zDist",
+          "ap1ID": "id-857",
+          "ap2ID": "id-866"
+        },
+        {
+          "ap2Name": "geometry1",
+          "ap1ID": "id-866",
+          "ap2ID": "id-872"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-872",
+          "ap2ID": "id-838"
+        }
+      ],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.6181229773462783,
+      "y": 0.24711316397228636,
+      "uniqueID": "id-876",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 4",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.1634304207119741,
+      "y": 0.2840646651270208,
+      "uniqueID": "id-880",
+      "name": "Slicer",
+      "ioValues": [
+        {
+          "name": "Cutting_shape",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Woodthick",
+          "ioValue": 3.175
+        },
+        {
+          "name": "Layer",
+          "ioValue": 2
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-881",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.10999999999999999,
+          "uniqueID": "id-882",
+          "name": "Cutting_shape",
+          "type": "geometry"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.176,
+          "uniqueID": "id-883",
+          "name": "Woodthick"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.242,
+          "uniqueID": "id-884",
+          "name": "Layer"
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.12891046386192018,
+          "y": 0.7297921478060047,
+          "uniqueID": "id-885",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 10000
+            },
+            {
+              "name": "y length",
+              "ioValue": 10000
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.3106796116504854,
+          "y": 0.745958429561201,
+          "uniqueID": "id-886",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 3.175
+            }
+          ]
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.2826321467098166,
+          "y": 0.3764434180138568,
+          "uniqueID": "id-887",
+          "name": "z-1",
+          "ioValues": [
+            {
+              "name": "z",
+              "ioValue": 2
+            }
+          ],
+          "currentEquation": "z-1"
+        },
+        {
+          "atomType": "Move",
+          "x": 0.39428263214670983,
+          "y": 0.628175519630485,
+          "uniqueID": "id-888",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 1
+            }
+          ]
+        },
+        {
+          "atomType": "Intersection",
+          "x": 0.4994606256742179,
+          "y": 0.3764434180138568,
+          "uniqueID": "id-889",
+          "ioValues": [
+            {
+              "name": "geometry1",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "geometry2",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "geometry2",
+          "ap1ID": "id-882",
+          "ap2ID": "id-889"
+        },
+        {
+          "ap2Name": "height",
+          "ap1ID": "id-883",
+          "ap2ID": "id-886"
+        },
+        {
+          "ap2Name": "z",
+          "ap1ID": "id-884",
+          "ap2ID": "id-887"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-885",
+          "ap2ID": "id-886"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-886",
+          "ap2ID": "id-888"
+        },
+        {
+          "ap2Name": "zDist",
+          "ap1ID": "id-887",
+          "ap2ID": "id-888"
+        },
+        {
+          "ap2Name": "geometry1",
+          "ap1ID": "id-888",
+          "ap2ID": "id-889"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-889",
+          "ap2ID": "id-881"
+        }
+      ],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.21467098166127294,
+      "y": 0.47344110854503463,
+      "uniqueID": "id-917",
+      "name": "Slicer",
+      "ioValues": [
+        {
+          "name": "Cutting_shape",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Woodthick",
+          "ioValue": 3.175
+        },
+        {
+          "name": "Layer",
+          "ioValue": 3
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-918",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.10999999999999999,
+          "uniqueID": "id-919",
+          "name": "Cutting_shape",
+          "type": "geometry"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.176,
+          "uniqueID": "id-920",
+          "name": "Woodthick"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.242,
+          "uniqueID": "id-921",
+          "name": "Layer"
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.12891046386192018,
+          "y": 0.7297921478060047,
+          "uniqueID": "id-922",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 10000
+            },
+            {
+              "name": "y length",
+              "ioValue": 10000
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.3106796116504854,
+          "y": 0.745958429561201,
+          "uniqueID": "id-923",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 3.175
+            }
+          ]
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.2826321467098166,
+          "y": 0.3764434180138568,
+          "uniqueID": "id-924",
+          "name": "z-1",
+          "ioValues": [
+            {
+              "name": "z",
+              "ioValue": 3
+            }
+          ],
+          "currentEquation": "z-1"
+        },
+        {
+          "atomType": "Move",
+          "x": 0.39428263214670983,
+          "y": 0.628175519630485,
+          "uniqueID": "id-925",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 2
+            }
+          ]
+        },
+        {
+          "atomType": "Intersection",
+          "x": 0.4994606256742179,
+          "y": 0.3764434180138568,
+          "uniqueID": "id-926",
+          "ioValues": [
+            {
+              "name": "geometry1",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "geometry2",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "geometry2",
+          "ap1ID": "id-919",
+          "ap2ID": "id-926"
+        },
+        {
+          "ap2Name": "height",
+          "ap1ID": "id-920",
+          "ap2ID": "id-923"
+        },
+        {
+          "ap2Name": "z",
+          "ap1ID": "id-921",
+          "ap2ID": "id-924"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-922",
+          "ap2ID": "id-923"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-923",
+          "ap2ID": "id-925"
+        },
+        {
+          "ap2Name": "zDist",
+          "ap1ID": "id-924",
+          "ap2ID": "id-925"
+        },
+        {
+          "ap2Name": "geometry1",
+          "ap1ID": "id-925",
+          "ap2ID": "id-926"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-926",
+          "ap2ID": "id-918"
+        }
+      ],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.21467098166127294,
+      "y": 0.605080831408776,
+      "uniqueID": "id-954",
+      "name": "Slicer",
+      "ioValues": [
+        {
+          "name": "Cutting_shape",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Woodthick",
+          "ioValue": 3.175
+        },
+        {
+          "name": "Layer",
+          "ioValue": 4,
+          "currentEquation": "4"
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-955",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.10999999999999999,
+          "uniqueID": "id-956",
+          "name": "Cutting_shape",
+          "type": "geometry"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.176,
+          "uniqueID": "id-957",
+          "name": "Woodthick"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.242,
+          "uniqueID": "id-958",
+          "name": "Layer"
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.12891046386192018,
+          "y": 0.7297921478060047,
+          "uniqueID": "id-959",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 10000
+            },
+            {
+              "name": "y length",
+              "ioValue": 10000
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.3106796116504854,
+          "y": 0.745958429561201,
+          "uniqueID": "id-960",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 3.175
+            }
+          ]
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.2826321467098166,
+          "y": 0.3764434180138568,
+          "uniqueID": "id-961",
+          "name": "z-1",
+          "ioValues": [
+            {
+              "name": "z",
+              "ioValue": 4
+            }
+          ],
+          "currentEquation": "z-1"
+        },
+        {
+          "atomType": "Move",
+          "x": 0.39428263214670983,
+          "y": 0.628175519630485,
+          "uniqueID": "id-962",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 3
+            }
+          ]
+        },
+        {
+          "atomType": "Intersection",
+          "x": 0.4994606256742179,
+          "y": 0.3764434180138568,
+          "uniqueID": "id-963",
+          "ioValues": [
+            {
+              "name": "geometry1",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "geometry2",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "geometry2",
+          "ap1ID": "id-956",
+          "ap2ID": "id-963"
+        },
+        {
+          "ap2Name": "height",
+          "ap1ID": "id-957",
+          "ap2ID": "id-960"
+        },
+        {
+          "ap2Name": "z",
+          "ap1ID": "id-958",
+          "ap2ID": "id-961"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-959",
+          "ap2ID": "id-960"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-960",
+          "ap2ID": "id-962"
+        },
+        {
+          "ap2Name": "zDist",
+          "ap1ID": "id-961",
+          "ap2ID": "id-962"
+        },
+        {
+          "ap2Name": "geometry1",
+          "ap1ID": "id-962",
+          "ap2ID": "id-963"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-963",
+          "ap2ID": "id-955"
         }
       ],
       "fileTypeVersion": 1
@@ -280,34 +819,69 @@
   ],
   "allConnectors": [
     {
-      "ap2Name": "zDist",
+      "ap2Name": "Woodthick",
       "ap1ID": "id-6",
-      "ap2ID": "id-818"
+      "ap2ID": "id-836"
     },
     {
-      "ap2Name": "zDist",
+      "ap2Name": "Woodthick",
       "ap1ID": "id-6",
-      "ap2ID": "id-824"
+      "ap2ID": "id-880"
+    },
+    {
+      "ap2Name": "Woodthick",
+      "ap1ID": "id-6",
+      "ap2ID": "id-917"
+    },
+    {
+      "ap2Name": "Woodthick",
+      "ap1ID": "id-6",
+      "ap2ID": "id-954"
+    },
+    {
+      "ap2Name": "Cutting_shape",
+      "ap1ID": "id-588",
+      "ap2ID": "id-836"
+    },
+    {
+      "ap2Name": "Cutting_shape",
+      "ap1ID": "id-588",
+      "ap2ID": "id-880"
+    },
+    {
+      "ap2Name": "Cutting_shape",
+      "ap1ID": "id-588",
+      "ap2ID": "id-917"
+    },
+    {
+      "ap2Name": "Cutting_shape",
+      "ap1ID": "id-588",
+      "ap2ID": "id-954"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-836",
+      "ap2ID": "id-876"
     },
     {
       "ap2Name": "number or geometry",
-      "ap1ID": "id-588",
+      "ap1ID": "id-876",
       "ap2ID": "id-2"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-814",
-      "ap2ID": "id-818"
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-880",
+      "ap2ID": "id-876"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-818",
-      "ap2ID": "id-824"
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-917",
+      "ap2ID": "id-876"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-824",
-      "ap2ID": "id-830"
+      "ap2Name": "Shape 4",
+      "ap1ID": "id-954",
+      "ap2ID": "id-876"
     }
   ],
   "unitsKey": "MM",
