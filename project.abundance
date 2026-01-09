@@ -44,9 +44,107 @@
       "SVGwidth": 10
     },
     {
+      "atomType": "Assembly",
+      "x": 0.4471413160733549,
+      "y": 0.21016166281755197,
+      "uniqueID": "id-1208",
+      "ioValues": []
+    },
+    {
+      "atomType": "CutLayout",
+      "x": 0.5803667745415318,
+      "y": 0.45958429561200925,
+      "uniqueID": "id-1211",
+      "name": "Cut Layout",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Sheet Width",
+          "ioValue": 2438
+        },
+        {
+          "name": "Sheet Height",
+          "ioValue": 1219
+        },
+        {
+          "name": "Part Padding",
+          "ioValue": 10
+        }
+      ],
+      "placements": []
+    },
+    {
+      "atomType": "Gcode",
+      "x": 0.6720604099244877,
+      "y": 0.6096997690531177,
+      "uniqueID": "id-1217",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Tool Size",
+          "ioValue": 6.35
+        },
+        {
+          "name": "Passes",
+          "ioValue": 1
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1000
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Maslow4_Dust_hose_adaptor_out_of_wood_slices._",
+          "currentEquation": "Maslow4_Dust_hose_adaptor_out_of_wood_slices._"
+        }
+      ],
+      "partName": "Maslow4_Dust_hose_adaptor_out_of_wood_slices._",
+      "sortDirection": "Left"
+    },
+    {
+      "atomType": "Export",
+      "x": 0.616504854368932,
+      "y": 0.7967667436489608,
+      "uniqueID": "id-1225",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STL",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Maslow4_Dust_hose_adaptor_out_of_wood_slices._",
+          "currentEquation": "Maslow4_Dust_hose_adaptor_out_of_wood_slices._"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Maslow4_Dust_hose_adaptor_out_of_wood_slices._"
+    },
+    {
       "atomType": "Molecule",
-      "x": 0.1634304207119741,
-      "y": 0.15473441108545033,
+      "x": 0.1645091693635383,
+      "y": 0.15242494226327943,
       "uniqueID": "id-836",
       "name": "Slicer",
       "ioValues": [
@@ -165,6 +263,10 @@
             },
             {
               "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
               "ioValue": 0
             }
           ]
@@ -354,6 +456,10 @@
             {
               "name": "yDist",
               "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 1
             }
           ]
         },
@@ -537,6 +643,10 @@
             {
               "name": "yDist",
               "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 2
             }
           ]
         },
@@ -618,8 +728,7 @@
         },
         {
           "name": "Layer",
-          "ioValue": 4,
-          "currentEquation": "4"
+          "ioValue": 4
         }
       ],
       "topLevel": false,
@@ -721,6 +830,10 @@
             {
               "name": "yDist",
               "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 3
             }
           ]
         },
@@ -904,6 +1017,10 @@
             {
               "name": "yDist",
               "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 4
             }
           ]
         },
@@ -1087,6 +1204,10 @@
             {
               "name": "yDist",
               "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 5
             }
           ]
         },
@@ -1168,8 +1289,7 @@
         },
         {
           "name": "Layer",
-          "ioValue": 7,
-          "currentEquation": "7"
+          "ioValue": 7
         }
       ],
       "topLevel": false,
@@ -1271,6 +1391,10 @@
             {
               "name": "yDist",
               "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 6
             }
           ]
         },
@@ -1454,6 +1578,10 @@
             {
               "name": "yDist",
               "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 7
             }
           ]
         },
@@ -1637,6 +1765,10 @@
             {
               "name": "yDist",
               "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 8
             }
           ]
         },
@@ -1820,6 +1952,10 @@
             {
               "name": "yDist",
               "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 9
             }
           ]
         },
@@ -1883,13 +2019,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Assembly",
-      "x": 0.4994606256742179,
-      "y": 0.15935334872979215,
-      "uniqueID": "id-1208",
-      "ioValues": []
     }
   ],
   "allConnectors": [
@@ -1992,6 +2121,26 @@
       "ap2Name": "Cutting_shape",
       "ap1ID": "id-588",
       "ap2ID": "id-1172"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-1208",
+      "ap2ID": "id-1211"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-1208",
+      "ap2ID": "id-2"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-1211",
+      "ap2ID": "id-1217"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-1211",
+      "ap2ID": "id-1225"
     }
   ],
   "unitsKey": "MM",
