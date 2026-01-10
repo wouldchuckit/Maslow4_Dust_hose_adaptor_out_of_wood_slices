@@ -152,16 +152,16 @@
     },
     {
       "atomType": "Constant",
-      "x": 0.12513484358144553,
-      "y": 0.5173210161662818,
+      "x": 0.30906148867313915,
+      "y": 0.43187066974595845,
       "uniqueID": "id-1939",
       "name": "GroupOfTen",
       "value": 0
     },
     {
       "atomType": "Constant",
-      "x": 0.12028047464940668,
-      "y": 0.6720554272517321,
+      "x": 0.3036677454153182,
+      "y": 0.6605080831408776,
       "uniqueID": "id-3100",
       "name": "GroupOfTen_1",
       "value": 1
@@ -2828,8 +2828,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.2777777777777778,
-      "y": 0.6189376443418013,
+      "x": 0.4083063646170442,
+      "y": 0.6374133949191686,
       "uniqueID": "id-3101",
       "name": "10Slicer",
       "ioValues": [
@@ -5289,6 +5289,13 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.14617044228694714,
+      "y": 0.5057736720554272,
+      "uniqueID": "id-4200",
+      "ioValues": []
     }
   ],
   "allConnectors": [
@@ -5305,21 +5312,6 @@
     {
       "ap2Name": "WoodThick",
       "ap1ID": "id-6",
-      "ap2ID": "id-3101"
-    },
-    {
-      "ap2Name": "Cutting_shape",
-      "ap1ID": "id-588",
-      "ap2ID": "id-836"
-    },
-    {
-      "ap2Name": "ObjectToCut",
-      "ap1ID": "id-588",
-      "ap2ID": "id-1521"
-    },
-    {
-      "ap2Name": "ObjectToCut",
-      "ap1ID": "id-588",
       "ap2ID": "id-3101"
     },
     {
@@ -5361,6 +5353,21 @@
       "ap2Name": "Shape 2",
       "ap1ID": "id-3101",
       "ap2ID": "id-1208"
+    },
+    {
+      "ap2Name": "Cutting_shape",
+      "ap1ID": "id-4200",
+      "ap2ID": "id-836"
+    },
+    {
+      "ap2Name": "ObjectToCut",
+      "ap1ID": "id-4200",
+      "ap2ID": "id-1521"
+    },
+    {
+      "ap2Name": "ObjectToCut",
+      "ap1ID": "id-4200",
+      "ap2ID": "id-3101"
     }
   ],
   "unitsKey": "MM",
