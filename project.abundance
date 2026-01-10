@@ -33,8 +33,8 @@
     },
     {
       "atomType": "Import",
-      "x": 0.03128371089536138,
-      "y": 0.279445727482679,
+      "x": 0.02750809061488673,
+      "y": 0.2632794457274827,
       "uniqueID": "id-588",
       "fileName": "Dust Hose 2.step",
       "name": "Import",
@@ -5292,10 +5292,51 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.14617044228694714,
-      "y": 0.5057736720554272,
+      "x": 0.3004314994606257,
+      "y": 0.18937644341801385,
       "uniqueID": "id-4200",
-      "ioValues": []
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Fusion",
+      "x": 0.21467098166127294,
+      "y": 0.5057736720554272,
+      "uniqueID": "id-4207",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": {
+            "geometry": "import-step-9d2836a8d0ce788e65267f264b1608103e23766161564cc34da21e1bb12398a6",
+            "tags": [],
+            "color": "#aad7f2",
+            "bom": [],
+            "dimension": "3D",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            }
+          }
+        }
+      ],
+      "unionType": "Fusion"
     }
   ],
   "allConnectors": [
@@ -5313,6 +5354,11 @@
       "ap2Name": "WoodThick",
       "ap1ID": "id-6",
       "ap2ID": "id-3101"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-588",
+      "ap2ID": "id-4207"
     },
     {
       "ap2Name": "geometry",
@@ -5368,6 +5414,11 @@
       "ap2Name": "ObjectToCut",
       "ap1ID": "id-4200",
       "ap2ID": "id-3101"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-4207",
+      "ap2ID": "id-4200"
     }
   ],
   "unitsKey": "MM",
