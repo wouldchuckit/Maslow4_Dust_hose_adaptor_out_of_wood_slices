@@ -322,6 +322,137 @@
       "value": 1
     },
     {
+      "atomType": "Assembly",
+      "x": 0.3004314994606257,
+      "y": 0.18937644341801385,
+      "uniqueID": "id-4200",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Fusion",
+      "x": 0.21790722761596548,
+      "y": 0.5127020785219399,
+      "uniqueID": "id-4207",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": {
+            "geometry": "import-step-9d2836a8d0ce788e65267f264b1608103e23766161564cc34da21e1bb12398a6",
+            "tags": [],
+            "color": "#aad7f2",
+            "bom": [],
+            "dimension": "3D",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            }
+          }
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": {
+            "geometry": "move-extrude-rectangle-100-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0--40-20",
+            "dimension": "3D",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
+        }
+      ],
+      "unionType": "Fusion"
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.050161812297734636,
+      "y": 0.7759815242494226,
+      "uniqueID": "id-4212",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 100
+        },
+        {
+          "name": "y length",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.12028047464940668,
+      "y": 0.8175519630484989,
+      "uniqueID": "id-4216",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.18284789644012944,
+      "y": 0.8198614318706698,
+      "uniqueID": "id-4220",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": -40
+        },
+        {
+          "name": "zDist",
+          "ioValue": 20
+        }
+      ]
+    },
+    {
       "atomType": "Molecule",
       "x": 0.4228694714131607,
       "y": 0.10392609699769054,
@@ -4799,10 +4930,6 @@
             {
               "name": "Woodthick",
               "ioValue": 3.175
-            },
-            {
-              "name": "Layer",
-              "ioValue": 19
             }
           ],
           "topLevel": false,
@@ -4866,10 +4993,6 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "height",
-                  "ioValue": 3.175
                 }
               ]
             },
@@ -4879,16 +5002,6 @@
               "y": 0.3672055427251732,
               "uniqueID": "id-3203",
               "name": "(z-1)*w",
-              "ioValues": [
-                {
-                  "name": "z",
-                  "ioValue": 19
-                },
-                {
-                  "name": "w",
-                  "ioValue": 3.175
-                }
-              ],
               "currentEquation": "(z-1)*w"
             },
             {
@@ -4908,10 +5021,6 @@
                 {
                   "name": "yDist",
                   "ioValue": 0
-                },
-                {
-                  "name": "zDist",
-                  "ioValue": 57.15
                 }
               ]
             },
@@ -4995,10 +5104,6 @@
             {
               "name": "Woodthick",
               "ioValue": 3.175
-            },
-            {
-              "name": "Layer",
-              "ioValue": 20
             }
           ],
           "topLevel": false,
@@ -5062,10 +5167,6 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "height",
-                  "ioValue": 3.175
                 }
               ]
             },
@@ -5075,16 +5176,6 @@
               "y": 0.3672055427251732,
               "uniqueID": "id-3213",
               "name": "(z-1)*w",
-              "ioValues": [
-                {
-                  "name": "z",
-                  "ioValue": 20
-                },
-                {
-                  "name": "w",
-                  "ioValue": 3.175
-                }
-              ],
               "currentEquation": "(z-1)*w"
             },
             {
@@ -5104,10 +5195,6 @@
                 {
                   "name": "yDist",
                   "ioValue": 0
-                },
-                {
-                  "name": "zDist",
-                  "ioValue": 60.324999999999996
                 }
               ]
             },
@@ -5428,137 +5515,34 @@
       "fileTypeVersion": 1
     },
     {
-      "atomType": "Assembly",
-      "x": 0.3004314994606257,
-      "y": 0.18937644341801385,
-      "uniqueID": "id-4200",
+      "atomType": "Export",
+      "x": 0.9654800431499461,
+      "y": 0.7759815242494226,
+      "uniqueID": "id-4916",
       "ioValues": [
         {
-          "name": "Shape 1",
-          "ioValue": null
-        }
-      ]
-    },
-    {
-      "atomType": "Fusion",
-      "x": 0.21790722761596548,
-      "y": 0.5127020785219399,
-      "uniqueID": "id-4207",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": {
-            "geometry": "import-step-9d2836a8d0ce788e65267f264b1608103e23766161564cc34da21e1bb12398a6",
-            "tags": [],
-            "color": "#aad7f2",
-            "bom": [],
-            "dimension": "3D",
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            }
-          }
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
         },
         {
-          "name": "Shape 2",
-          "ioValue": {
-            "geometry": "move-extrude-rectangle-100-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0--40-20",
-            "dimension": "3D",
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "tags": [],
-            "bom": []
-          }
+          "name": "File Type",
+          "ioValue": "STL",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Maslow4_Dust_hose_adaptor_out_of_wood_slices",
+          "currentEquation": "Maslow4_Dust_hose_adaptor_out_of_wood_slices"
         }
       ],
-      "unionType": "Fusion"
-    },
-    {
-      "atomType": "Rectangle",
-      "x": 0.050161812297734636,
-      "y": 0.7759815242494226,
-      "uniqueID": "id-4212",
-      "ioValues": [
-        {
-          "name": "x length",
-          "ioValue": 100
-        },
-        {
-          "name": "y length",
-          "ioValue": 10,
-          "currentEquation": "10"
-        }
-      ]
-    },
-    {
-      "atomType": "Extrude",
-      "x": 0.12028047464940668,
-      "y": 0.8175519630484989,
-      "uniqueID": "id-4216",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "height",
-          "ioValue": 10
-        }
-      ]
-    },
-    {
-      "atomType": "Move",
-      "x": 0.18284789644012944,
-      "y": 0.8198614318706698,
-      "uniqueID": "id-4220",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "xDist",
-          "ioValue": 0
-        },
-        {
-          "name": "yDist",
-          "ioValue": -40
-        },
-        {
-          "name": "zDist",
-          "ioValue": 20,
-          "currentEquation": "20"
-        }
-      ]
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Maslow4_Dust_hose_adaptor_out_of_wood_slices"
     }
   ],
   "allConnectors": [
@@ -5594,6 +5578,11 @@
     },
     {
       "ap2Name": "geometry",
+      "ap1ID": "id-1208",
+      "ap2ID": "id-4916"
+    },
+    {
+      "ap2Name": "geometry",
       "ap1ID": "id-1211",
       "ap2ID": "id-1217"
     },
@@ -5611,16 +5600,6 @@
       "ap2Name": "GroupOfTen",
       "ap1ID": "id-3100",
       "ap2ID": "id-3101"
-    },
-    {
-      "ap2Name": "Shape 1",
-      "ap1ID": "id-1521",
-      "ap2ID": "id-1208"
-    },
-    {
-      "ap2Name": "Shape 2",
-      "ap1ID": "id-3101",
-      "ap2ID": "id-1208"
     },
     {
       "ap2Name": "Cutting_shape",
@@ -5656,6 +5635,16 @@
       "ap2Name": "Shape 2",
       "ap1ID": "id-4220",
       "ap2ID": "id-4207"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-1521",
+      "ap2ID": "id-1208"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-3101",
+      "ap2ID": "id-1208"
     }
   ],
   "unitsKey": "MM",
