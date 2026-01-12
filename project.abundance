@@ -408,8 +408,7 @@
         },
         {
           "name": "y length",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "ioValue": 10
         }
       ]
     },
@@ -452,6 +451,36 @@
           "ioValue": 20
         }
       ]
+    },
+    {
+      "atomType": "Export",
+      "x": 0.9654800431499461,
+      "y": 0.7759815242494226,
+      "uniqueID": "id-4916",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STL",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Maslow4_Dust_hose_adaptor_out_of_wood_slices",
+          "currentEquation": "Maslow4_Dust_hose_adaptor_out_of_wood_slices"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Maslow4_Dust_hose_adaptor_out_of_wood_slices"
     },
     {
       "atomType": "Molecule",
@@ -5514,36 +5543,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Export",
-      "x": 0.9654800431499461,
-      "y": 0.7759815242494226,
-      "uniqueID": "id-4916",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "File Type",
-          "ioValue": "STL",
-          "currentEquation": "STL"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "Maslow4_Dust_hose_adaptor_out_of_wood_slices",
-          "currentEquation": "Maslow4_Dust_hose_adaptor_out_of_wood_slices"
-        }
-      ],
-      "type": null,
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "Maslow4_Dust_hose_adaptor_out_of_wood_slices"
     }
   ],
   "allConnectors": [
