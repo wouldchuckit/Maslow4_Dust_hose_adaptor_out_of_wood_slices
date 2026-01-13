@@ -53,6 +53,10 @@
         {
           "name": "Shape 1",
           "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
         }
       ]
     },
@@ -812,6 +816,14 @@
             },
             {
               "name": "Shape 8",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 9",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 10",
               "ioValue": null
             }
           ]
@@ -1994,8 +2006,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.4741100323624596,
-          "y": 0.35334872979214776,
+          "x": 0.46763754045307443,
+          "y": 0.348729792147806,
           "uniqueID": "id-2949",
           "name": "Slicer",
           "ioValues": [
@@ -2190,7 +2202,7 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.4654800431499461,
+          "x": 0.47141316073354905,
           "y": 0.5034642032332564,
           "uniqueID": "id-2986",
           "name": "Slicer",
@@ -2386,8 +2398,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.47141316073354905,
-          "y": 0.6651270207852193,
+          "x": 0.4746494066882416,
+          "y": 0.6674364896073902,
           "uniqueID": "id-3023",
           "name": "Slicer",
           "ioValues": [
@@ -3022,14 +3034,24 @@
           "ap2Name": "Shape 8",
           "ap1ID": "id-2986",
           "ap2ID": "id-3520"
+        },
+        {
+          "ap2Name": "Shape 9",
+          "ap1ID": "id-3023",
+          "ap2ID": "id-3520"
+        },
+        {
+          "ap2Name": "Shape 10",
+          "ap1ID": "id-3060",
+          "ap2ID": "id-3520"
         }
       ],
       "fileTypeVersion": 1
     },
     {
       "atomType": "Molecule",
-      "x": 0.4083063646170442,
-      "y": 0.6374133949191686,
+      "x": 0.42017259978425026,
+      "y": 0.6212471131639723,
       "uniqueID": "id-3101",
       "name": "10Slicer",
       "ioValues": [
@@ -4840,8 +4862,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.4638619201725998,
-          "y": 0.6951501154734411,
+          "x": 0.4670981661272923,
+          "y": 0.6605080831408776,
           "uniqueID": "id-3196",
           "name": "Slicer",
           "ioValues": [
@@ -5585,6 +5607,11 @@
     {
       "ap2Name": "Shape 1",
       "ap1ID": "id-1521",
+      "ap2ID": "id-1208"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-3101",
       "ap2ID": "id-1208"
     }
   ],
