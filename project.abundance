@@ -7,8 +7,7 @@
   "ioValues": [
     {
       "name": "WoodThick",
-      "ioValue": 8,
-      "currentEquation": "8"
+      "ioValue": 8
     }
   ],
   "topLevel": true,
@@ -183,57 +182,11 @@
       "ioValues": [
         {
           "name": "Shape 1",
-          "ioValue": {
-            "geometry": "import-step-9d2836a8d0ce788e65267f264b1608103e23766161564cc34da21e1bb12398a6",
-            "tags": [],
-            "color": "#aad7f2",
-            "bom": [],
-            "dimension": "3D",
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            }
-          }
+          "ioValue": null
         },
         {
           "name": "Shape 2",
-          "ioValue": {
-            "geometry": "move-extrude-rectangle-80-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0--40-20",
-            "dimension": "3D",
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "tags": [],
-            "bom": []
-          }
+          "ioValue": null
         }
       ],
       "unionType": "Fusion"
@@ -447,6 +400,10 @@
             {
               "name": "yDist",
               "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
             }
           ]
         },
@@ -578,6 +535,12 @@
           "y": 0.19861431870669746,
           "uniqueID": "id-1907",
           "name": "10*n+1",
+          "ioValues": [
+            {
+              "name": "n",
+              "ioValue": 0
+            }
+          ],
           "currentEquation": "10*n+1"
         },
         {
@@ -586,6 +549,12 @@
           "y": 0.3117782909930716,
           "uniqueID": "id-1912",
           "name": "10*n+2",
+          "ioValues": [
+            {
+              "name": "n",
+              "ioValue": 0
+            }
+          ],
           "currentEquation": "10*n+2"
         },
         {
@@ -594,6 +563,12 @@
           "y": 0.4457274826789838,
           "uniqueID": "id-1915",
           "name": "10*n+3",
+          "ioValues": [
+            {
+              "name": "n",
+              "ioValue": 0
+            }
+          ],
           "currentEquation": "10*n+3"
         },
         {
@@ -602,6 +577,12 @@
           "y": 0.5912240184757506,
           "uniqueID": "id-1918",
           "name": "10*n+4",
+          "ioValues": [
+            {
+              "name": "n",
+              "ioValue": 0
+            }
+          ],
           "currentEquation": "10*n+4"
         },
         {
@@ -610,6 +591,12 @@
           "y": 0.7251732101616628,
           "uniqueID": "id-1921",
           "name": "10*n+5",
+          "ioValues": [
+            {
+              "name": "n",
+              "ioValue": 0
+            }
+          ],
           "currentEquation": "10*n+5"
         },
         {
@@ -618,6 +605,12 @@
           "y": 0.2678983833718245,
           "uniqueID": "id-1924",
           "name": "10*n+6",
+          "ioValues": [
+            {
+              "name": "n",
+              "ioValue": 0
+            }
+          ],
           "currentEquation": "10*n+6"
         },
         {
@@ -626,6 +619,12 @@
           "y": 0.3856812933025404,
           "uniqueID": "id-1927",
           "name": "10*n+7",
+          "ioValues": [
+            {
+              "name": "n",
+              "ioValue": 0
+            }
+          ],
           "currentEquation": "10*n+7"
         },
         {
@@ -634,6 +633,12 @@
           "y": 0.5450346420323325,
           "uniqueID": "id-1930",
           "name": "10*n+8",
+          "ioValues": [
+            {
+              "name": "n",
+              "ioValue": 0
+            }
+          ],
           "currentEquation": "10*n+8"
         },
         {
@@ -642,6 +647,12 @@
           "y": 0.6997690531177828,
           "uniqueID": "id-1933",
           "name": "10*n+9",
+          "ioValues": [
+            {
+              "name": "n",
+              "ioValue": 0
+            }
+          ],
           "currentEquation": "10*n+9"
         },
         {
@@ -650,6 +661,12 @@
           "y": 0.836027713625866,
           "uniqueID": "id-1936",
           "name": "10*n+10",
+          "ioValues": [
+            {
+              "name": "n",
+              "ioValue": 0
+            }
+          ],
           "currentEquation": "10*n+10"
         },
         {
@@ -698,6 +715,14 @@
             {
               "name": "Cutting_shape",
               "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Woodthick",
+              "ioValue": 8
+            },
+            {
+              "name": "Layer",
+              "ioValue": 1
             }
           ],
           "topLevel": false,
@@ -761,6 +786,10 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 8
                 }
               ]
             },
@@ -770,6 +799,16 @@
               "y": 0.3672055427251732,
               "uniqueID": "id-1533",
               "name": "(z-1)*w",
+              "ioValues": [
+                {
+                  "name": "z",
+                  "ioValue": 1
+                },
+                {
+                  "name": "w",
+                  "ioValue": 8
+                }
+              ],
               "currentEquation": "(z-1)*w"
             },
             {
@@ -868,6 +907,14 @@
             {
               "name": "Cutting_shape",
               "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Woodthick",
+              "ioValue": 8
+            },
+            {
+              "name": "Layer",
+              "ioValue": 2
             }
           ],
           "topLevel": false,
@@ -931,6 +978,10 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 8
                 }
               ]
             },
@@ -940,6 +991,16 @@
               "y": 0.3672055427251732,
               "uniqueID": "id-2546",
               "name": "(z-1)*w",
+              "ioValues": [
+                {
+                  "name": "z",
+                  "ioValue": 2
+                },
+                {
+                  "name": "w",
+                  "ioValue": 8
+                }
+              ],
               "currentEquation": "(z-1)*w"
             },
             {
@@ -1038,6 +1099,14 @@
             {
               "name": "Cutting_shape",
               "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Woodthick",
+              "ioValue": 8
+            },
+            {
+              "name": "Layer",
+              "ioValue": 3
             }
           ],
           "topLevel": false,
@@ -1101,6 +1170,10 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 8
                 }
               ]
             },
@@ -1110,6 +1183,16 @@
               "y": 0.3672055427251732,
               "uniqueID": "id-2583",
               "name": "(z-1)*w",
+              "ioValues": [
+                {
+                  "name": "z",
+                  "ioValue": 3
+                },
+                {
+                  "name": "w",
+                  "ioValue": 8
+                }
+              ],
               "currentEquation": "(z-1)*w"
             },
             {
@@ -1208,6 +1291,14 @@
             {
               "name": "Cutting_shape",
               "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Woodthick",
+              "ioValue": 8
+            },
+            {
+              "name": "Layer",
+              "ioValue": 4
             }
           ],
           "topLevel": false,
@@ -1271,6 +1362,10 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 8
                 }
               ]
             },
@@ -1280,6 +1375,16 @@
               "y": 0.3672055427251732,
               "uniqueID": "id-2626",
               "name": "(z-1)*w",
+              "ioValues": [
+                {
+                  "name": "z",
+                  "ioValue": 4
+                },
+                {
+                  "name": "w",
+                  "ioValue": 8
+                }
+              ],
               "currentEquation": "(z-1)*w"
             },
             {
@@ -1378,6 +1483,14 @@
             {
               "name": "Cutting_shape",
               "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Woodthick",
+              "ioValue": 8
+            },
+            {
+              "name": "Layer",
+              "ioValue": 5
             }
           ],
           "topLevel": false,
@@ -1441,6 +1554,10 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 8
                 }
               ]
             },
@@ -1450,6 +1567,16 @@
               "y": 0.3672055427251732,
               "uniqueID": "id-2663",
               "name": "(z-1)*w",
+              "ioValues": [
+                {
+                  "name": "z",
+                  "ioValue": 5
+                },
+                {
+                  "name": "w",
+                  "ioValue": 8
+                }
+              ],
               "currentEquation": "(z-1)*w"
             },
             {
@@ -1548,6 +1675,14 @@
             {
               "name": "Cutting_shape",
               "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Woodthick",
+              "ioValue": 8
+            },
+            {
+              "name": "Layer",
+              "ioValue": 6
             }
           ],
           "topLevel": false,
@@ -1611,6 +1746,10 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 8
                 }
               ]
             },
@@ -1620,6 +1759,16 @@
               "y": 0.3672055427251732,
               "uniqueID": "id-2700",
               "name": "(z-1)*w",
+              "ioValues": [
+                {
+                  "name": "z",
+                  "ioValue": 6
+                },
+                {
+                  "name": "w",
+                  "ioValue": 8
+                }
+              ],
               "currentEquation": "(z-1)*w"
             },
             {
@@ -1718,6 +1867,14 @@
             {
               "name": "Cutting_shape",
               "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Woodthick",
+              "ioValue": 8
+            },
+            {
+              "name": "Layer",
+              "ioValue": 7
             }
           ],
           "topLevel": false,
@@ -1781,6 +1938,10 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 8
                 }
               ]
             },
@@ -1790,6 +1951,16 @@
               "y": 0.3672055427251732,
               "uniqueID": "id-2956",
               "name": "(z-1)*w",
+              "ioValues": [
+                {
+                  "name": "z",
+                  "ioValue": 7
+                },
+                {
+                  "name": "w",
+                  "ioValue": 8
+                }
+              ],
               "currentEquation": "(z-1)*w"
             },
             {
@@ -1888,6 +2059,10 @@
             {
               "name": "Cutting_shape",
               "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Woodthick",
+              "ioValue": 8
             }
           ],
           "topLevel": false,
@@ -2058,6 +2233,10 @@
             {
               "name": "Cutting_shape",
               "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Woodthick",
+              "ioValue": 8
             }
           ],
           "topLevel": false,
@@ -2228,6 +2407,10 @@
             {
               "name": "Cutting_shape",
               "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Woodthick",
+              "ioValue": 8
             }
           ],
           "topLevel": false,
@@ -3000,10 +3183,6 @@
                 {
                   "name": "yDist",
                   "ioValue": 0
-                },
-                {
-                  "name": "zDist",
-                  "ioValue": 80
                 }
               ]
             },
@@ -3196,10 +3375,6 @@
                 {
                   "name": "yDist",
                   "ioValue": 0
-                },
-                {
-                  "name": "zDist",
-                  "ioValue": 88
                 }
               ]
             },
@@ -3392,10 +3567,6 @@
                 {
                   "name": "yDist",
                   "ioValue": 0
-                },
-                {
-                  "name": "zDist",
-                  "ioValue": 96
                 }
               ]
             },
@@ -3588,10 +3759,6 @@
                 {
                   "name": "yDist",
                   "ioValue": 0
-                },
-                {
-                  "name": "zDist",
-                  "ioValue": 104
                 }
               ]
             },
@@ -3784,10 +3951,6 @@
                 {
                   "name": "yDist",
                   "ioValue": 0
-                },
-                {
-                  "name": "zDist",
-                  "ioValue": 112
                 }
               ]
             },
@@ -3980,10 +4143,6 @@
                 {
                   "name": "yDist",
                   "ioValue": 0
-                },
-                {
-                  "name": "zDist",
-                  "ioValue": 120
                 }
               ]
             },
@@ -4176,10 +4335,6 @@
                 {
                   "name": "yDist",
                   "ioValue": 0
-                },
-                {
-                  "name": "zDist",
-                  "ioValue": 128
                 }
               ]
             },
@@ -4372,10 +4527,6 @@
                 {
                   "name": "yDist",
                   "ioValue": 0
-                },
-                {
-                  "name": "zDist",
-                  "ioValue": 136
                 }
               ]
             },
@@ -4568,10 +4719,6 @@
                 {
                   "name": "yDist",
                   "ioValue": 0
-                },
-                {
-                  "name": "zDist",
-                  "ioValue": 144
                 }
               ]
             },
@@ -4764,10 +4911,6 @@
                 {
                   "name": "yDist",
                   "ioValue": 0
-                },
-                {
-                  "name": "zDist",
-                  "ioValue": 152
                 }
               ]
             },
