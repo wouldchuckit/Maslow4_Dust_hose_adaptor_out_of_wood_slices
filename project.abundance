@@ -418,7 +418,7 @@
         },
         {
           "atomType": "Input",
-          "x": 0.025384615384615384,
+          "x": 0.0165,
           "y": 0.15384615384615385,
           "uniqueID": "id-840",
           "name": "Cutting_shape",
@@ -426,14 +426,14 @@
         },
         {
           "atomType": "Input",
-          "x": 0.025384615384615384,
+          "x": 0.0165,
           "y": 0.24615384615384617,
           "uniqueID": "id-843",
           "name": "Woodthick"
         },
         {
           "atomType": "Input",
-          "x": 0.025384615384615384,
+          "x": 0.0165,
           "y": 0.3384615384615385,
           "uniqueID": "id-846",
           "name": "Layer"
@@ -614,14 +614,14 @@
         },
         {
           "atomType": "Input",
-          "x": 0.025384615384615384,
+          "x": 0.0165,
           "y": 0.15384615384615385,
           "uniqueID": "id-1898",
           "name": "WoodThick"
         },
         {
           "atomType": "Input",
-          "x": 0.025384615384615384,
+          "x": 0.0165,
           "y": 0.24615384615384617,
           "uniqueID": "id-1901",
           "name": "ObjectToCut",
@@ -629,7 +629,7 @@
         },
         {
           "atomType": "Input",
-          "x": 0.025384615384615384,
+          "x": 0.0165,
           "y": 0.3384615384615385,
           "uniqueID": "id-1904",
           "name": "GroupOfTen"
@@ -3078,14 +3078,14 @@
         },
         {
           "atomType": "Input",
-          "x": 0.025384615384615384,
+          "x": 0.0165,
           "y": 0.15384615384615385,
           "uniqueID": "id-3103",
           "name": "WoodThick"
         },
         {
           "atomType": "Input",
-          "x": 0.025384615384615384,
+          "x": 0.0165,
           "y": 0.24615384615384617,
           "uniqueID": "id-3104",
           "name": "ObjectToCut",
@@ -3093,7 +3093,7 @@
         },
         {
           "atomType": "Input",
-          "x": 0.025384615384615384,
+          "x": 0.0165,
           "y": 0.3384615384615385,
           "uniqueID": "id-3105",
           "name": "GroupOfTen"
@@ -3691,8 +3691,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.2707659115426106,
-          "y": 0.4018475750577367,
+          "x": 0.6709558823529411,
+          "y": 0.7948717948717948,
           "uniqueID": "id-3136",
           "name": "Slicer",
           "ioValues": [
@@ -3725,7 +3725,7 @@
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
+              "x": 0.0165,
               "y": 0.15384615384615385,
               "uniqueID": "id-3138",
               "name": "Cutting_shape",
@@ -3733,14 +3733,14 @@
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
+              "x": 0.0165,
               "y": 0.24615384615384617,
               "uniqueID": "id-3139",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
+              "x": 0.0165,
               "y": 0.3384615384615385,
               "uniqueID": "id-3140",
               "name": "Layer"
@@ -3821,9 +3821,9 @@
             },
             {
               "atomType": "Intersection",
-              "x": 0.4994606256742179,
-              "y": 0.3764434180138568,
-              "uniqueID": "id-3145",
+              "x": 0.5061274509803921,
+              "y": 0.23076923076923078,
+              "uniqueID": "id-7036",
               "ioValues": [
                 {
                   "name": "geometry1",
@@ -3838,9 +3838,9 @@
           ],
           "allConnectors": [
             {
-              "ap2Name": "geometry2",
+              "ap2Name": "geometry1",
               "ap1ID": "id-3138",
-              "ap2ID": "id-3145"
+              "ap2ID": "id-7036"
             },
             {
               "ap2Name": "height",
@@ -3873,13 +3873,13 @@
               "ap2ID": "id-3144"
             },
             {
-              "ap2Name": "geometry1",
+              "ap2Name": "geometry2",
               "ap1ID": "id-3144",
-              "ap2ID": "id-3145"
+              "ap2ID": "id-7036"
             },
             {
               "ap2Name": "number or geometry",
-              "ap1ID": "id-3145",
+              "ap1ID": "id-7036",
               "ap2ID": "id-3137"
             }
           ],
@@ -4683,6 +4683,10 @@
             {
               "name": "Woodthick",
               "ioValue": 3.2
+            },
+            {
+              "name": "Layer",
+              "ioValue": 18
             }
           ],
           "topLevel": false,
@@ -4746,6 +4750,10 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 3.2
                 }
               ]
             },
@@ -4755,6 +4763,16 @@
               "y": 0.3672055427251732,
               "uniqueID": "id-3193",
               "name": "(z-1)*w",
+              "ioValues": [
+                {
+                  "name": "z",
+                  "ioValue": 18
+                },
+                {
+                  "name": "w",
+                  "ioValue": 3.2
+                }
+              ],
               "currentEquation": "(z-1)*w"
             },
             {
@@ -4774,6 +4792,10 @@
                 {
                   "name": "yDist",
                   "ioValue": 0
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 54.400000000000006
                 }
               ]
             },
@@ -4857,6 +4879,10 @@
             {
               "name": "Woodthick",
               "ioValue": 3.2
+            },
+            {
+              "name": "Layer",
+              "ioValue": 19
             }
           ],
           "topLevel": false,
@@ -4920,6 +4946,10 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 3.2
                 }
               ]
             },
@@ -4929,6 +4959,16 @@
               "y": 0.3672055427251732,
               "uniqueID": "id-3203",
               "name": "(z-1)*w",
+              "ioValues": [
+                {
+                  "name": "z",
+                  "ioValue": 19
+                },
+                {
+                  "name": "w",
+                  "ioValue": 3.2
+                }
+              ],
               "currentEquation": "(z-1)*w"
             },
             {
@@ -4948,6 +4988,10 @@
                 {
                   "name": "yDist",
                   "ioValue": 0
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 57.6
                 }
               ]
             },
@@ -5031,6 +5075,10 @@
             {
               "name": "Woodthick",
               "ioValue": 3.2
+            },
+            {
+              "name": "Layer",
+              "ioValue": 20
             }
           ],
           "topLevel": false,
@@ -5094,6 +5142,10 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 3.2
                 }
               ]
             },
@@ -5103,6 +5155,16 @@
               "y": 0.3672055427251732,
               "uniqueID": "id-3213",
               "name": "(z-1)*w",
+              "ioValues": [
+                {
+                  "name": "z",
+                  "ioValue": 20
+                },
+                {
+                  "name": "w",
+                  "ioValue": 3.2
+                }
+              ],
               "currentEquation": "(z-1)*w"
             },
             {
@@ -5122,6 +5184,10 @@
                 {
                   "name": "yDist",
                   "ioValue": 0
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 60.800000000000004
                 }
               ]
             },
@@ -5483,8 +5549,8 @@
     },
     {
       "atomType": "Readme",
-      "x": 0.47058823529411764,
-      "y": 0.8376068376068375,
+      "x": 0.5,
+      "y": 0.8660968660968661,
       "uniqueID": "id-7034",
       "name": "README",
       "ioValues": [
