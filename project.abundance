@@ -27,7 +27,7 @@
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.15384615384615385,
+      "y": 0.1,
       "uniqueID": "id-6",
       "name": "WoodThick"
     },
@@ -360,8 +360,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.1779935275080906,
-      "y": 0.605080831408776,
+      "x": 0.1765625,
+      "y": 0.6207729468599034,
       "uniqueID": "id-6319",
       "ioValues": [
         {
@@ -381,6 +381,66 @@
           "ioValue": 30
         }
       ]
+    },
+    {
+      "atomType": "Readme",
+      "x": 0.06678921568627451,
+      "y": 0.48433048433048426,
+      "uniqueID": "id-7027",
+      "name": "README",
+      "ioValues": [
+        {
+          "name": "value",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "readMeText": "Load 3D model here",
+      "global": true
+    },
+    {
+      "atomType": "Readme",
+      "x": 0.2515625,
+      "y": 0.8937198067632851,
+      "uniqueID": "id-7029",
+      "name": "README",
+      "ioValues": [
+        {
+          "name": "value",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "readMeText": "This section is to correct for geometry that doesn't read right in abundance from your model.  In this case there were parts with lots of faces intersecting at one point so the block just covers over and replaces that. ",
+      "global": true
+    },
+    {
+      "atomType": "Readme",
+      "x": 0.5428921568627452,
+      "y": 0.09686609686609686,
+      "uniqueID": "id-7031",
+      "name": "README",
+      "ioValues": [
+        {
+          "name": "value",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "readMeText": "This slicer is the basic atom that makes a large flat plane the thickness of your wood panel and then intersects it with the model to make a slice.  It is here just as a place to store it. The 10 slicers below are groups of 10 of these that are raised up in chunks. ",
+      "global": true
+    },
+    {
+      "atomType": "Readme",
+      "x": 0.5,
+      "y": 0.8660968660968661,
+      "uniqueID": "id-7034",
+      "name": "README",
+      "ioValues": [
+        {
+          "name": "value",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "readMeText": "Copy 10 slicers as needed.  Each one needs to be lifted up  by adding a group of 10 indicator.  Currently the assembly atom doesn't like empty things being added to it so disconnect the uneeded parts of the 10 slicer.  If you are loading your own shape you may need to reconnect parts inside there. ",
+      "global": true
     },
     {
       "atomType": "Molecule",
@@ -419,7 +479,7 @@
         {
           "atomType": "Input",
           "x": 0.0165,
-          "y": 0.15384615384615385,
+          "y": 0.1,
           "uniqueID": "id-840",
           "name": "Cutting_shape",
           "type": "geometry"
@@ -427,14 +487,14 @@
         {
           "atomType": "Input",
           "x": 0.0165,
-          "y": 0.24615384615384617,
+          "y": 0.16,
           "uniqueID": "id-843",
           "name": "Woodthick"
         },
         {
           "atomType": "Input",
           "x": 0.0165,
-          "y": 0.3384615384615385,
+          "y": 0.22,
           "uniqueID": "id-846",
           "name": "Layer"
         },
@@ -514,8 +574,8 @@
         },
         {
           "atomType": "Intersection",
-          "x": 0.4994606256742179,
-          "y": 0.3764434180138568,
+          "x": 0.5317708333333333,
+          "y": 0.3357487922705314,
           "uniqueID": "id-872",
           "ioValues": [
             {
@@ -615,14 +675,14 @@
         {
           "atomType": "Input",
           "x": 0.0165,
-          "y": 0.15384615384615385,
+          "y": 0.1,
           "uniqueID": "id-1898",
           "name": "WoodThick"
         },
         {
           "atomType": "Input",
           "x": 0.0165,
-          "y": 0.24615384615384617,
+          "y": 0.16,
           "uniqueID": "id-1901",
           "name": "ObjectToCut",
           "type": "geometry"
@@ -630,7 +690,7 @@
         {
           "atomType": "Input",
           "x": 0.0165,
-          "y": 0.3384615384615385,
+          "y": 0.22,
           "uniqueID": "id-1904",
           "name": "GroupOfTen"
         },
@@ -824,8 +884,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.27292340884573896,
-          "y": 0.18475750577367206,
+          "x": 0.271875,
+          "y": 0.20048309178743962,
           "uniqueID": "id-1526",
           "name": "Slicer",
           "ioValues": [
@@ -858,23 +918,23 @@
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.15384615384615385,
+              "x": 0.0165,
+              "y": 0.1,
               "uniqueID": "id-1528",
               "name": "Cutting_shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.24615384615384617,
+              "x": 0.0165,
+              "y": 0.16,
               "uniqueID": "id-1529",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.3384615384615385,
+              "x": 0.0165,
+              "y": 0.22,
               "uniqueID": "id-1530",
               "name": "Layer"
             },
@@ -1020,8 +1080,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.2691477885652643,
-          "y": 0.3302540415704388,
+          "x": 0.26614583333333336,
+          "y": 0.31884057971014496,
           "uniqueID": "id-2539",
           "name": "Slicer",
           "ioValues": [
@@ -1054,23 +1114,23 @@
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.15384615384615385,
+              "x": 0.0165,
+              "y": 0.1,
               "uniqueID": "id-2541",
               "name": "Cutting_shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.24615384615384617,
+              "x": 0.0165,
+              "y": 0.16,
               "uniqueID": "id-2542",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.3384615384615385,
+              "x": 0.0165,
+              "y": 0.22,
               "uniqueID": "id-2543",
               "name": "Layer"
             },
@@ -1216,8 +1276,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.2702265372168285,
-          "y": 0.45727482678983833,
+          "x": 0.26510416666666664,
+          "y": 0.44927536231884063,
           "uniqueID": "id-2576",
           "name": "Slicer",
           "ioValues": [
@@ -1250,23 +1310,23 @@
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.15384615384615385,
+              "x": 0.0165,
+              "y": 0.1,
               "uniqueID": "id-2578",
               "name": "Cutting_shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.24615384615384617,
+              "x": 0.0165,
+              "y": 0.16,
               "uniqueID": "id-2579",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.3384615384615385,
+              "x": 0.0165,
+              "y": 0.22,
               "uniqueID": "id-2580",
               "name": "Layer"
             },
@@ -1446,23 +1506,23 @@
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.15384615384615385,
+              "x": 0.0165,
+              "y": 0.1,
               "uniqueID": "id-2621",
               "name": "Cutting_shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.24615384615384617,
+              "x": 0.0165,
+              "y": 0.16,
               "uniqueID": "id-2622",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.3384615384615385,
+              "x": 0.0165,
+              "y": 0.22,
               "uniqueID": "id-2623",
               "name": "Layer"
             },
@@ -1608,8 +1668,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.26429341963322545,
-          "y": 0.789838337182448,
+          "x": 0.26875,
+          "y": 0.7608695652173914,
           "uniqueID": "id-2656",
           "name": "Slicer",
           "ioValues": [
@@ -1642,23 +1702,23 @@
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.15384615384615385,
+              "x": 0.0165,
+              "y": 0.1,
               "uniqueID": "id-2658",
               "name": "Cutting_shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.24615384615384617,
+              "x": 0.0165,
+              "y": 0.16,
               "uniqueID": "id-2659",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.3384615384615385,
+              "x": 0.0165,
+              "y": 0.22,
               "uniqueID": "id-2660",
               "name": "Layer"
             },
@@ -1838,23 +1898,23 @@
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.15384615384615385,
+              "x": 0.0165,
+              "y": 0.1,
               "uniqueID": "id-2695",
               "name": "Cutting_shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.24615384615384617,
+              "x": 0.0165,
+              "y": 0.16,
               "uniqueID": "id-2696",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.3384615384615385,
+              "x": 0.0165,
+              "y": 0.22,
               "uniqueID": "id-2697",
               "name": "Layer"
             },
@@ -2000,8 +2060,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.46763754045307443,
-          "y": 0.348729792147806,
+          "x": 0.4692708333333333,
+          "y": 0.3357487922705314,
           "uniqueID": "id-2949",
           "name": "Slicer",
           "ioValues": [
@@ -2034,23 +2094,23 @@
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.15384615384615385,
+              "x": 0.0165,
+              "y": 0.1,
               "uniqueID": "id-2951",
               "name": "Cutting_shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.24615384615384617,
+              "x": 0.0165,
+              "y": 0.16,
               "uniqueID": "id-2952",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.3384615384615385,
+              "x": 0.0165,
+              "y": 0.22,
               "uniqueID": "id-2953",
               "name": "Layer"
             },
@@ -2196,8 +2256,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.47303128371089537,
-          "y": 0.5196304849884527,
+          "x": 0.4723958333333333,
+          "y": 0.463768115942029,
           "uniqueID": "id-2986",
           "name": "Slicer",
           "ioValues": [
@@ -2230,23 +2290,23 @@
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.15384615384615385,
+              "x": 0.0165,
+              "y": 0.1,
               "uniqueID": "id-2988",
               "name": "Cutting_shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.24615384615384617,
+              "x": 0.0165,
+              "y": 0.16,
               "uniqueID": "id-2989",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.3384615384615385,
+              "x": 0.0165,
+              "y": 0.22,
               "uniqueID": "id-2990",
               "name": "Layer"
             },
@@ -2392,8 +2452,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.4746494066882416,
-          "y": 0.6674364896073902,
+          "x": 0.48020833333333335,
+          "y": 0.6304347826086957,
           "uniqueID": "id-3023",
           "name": "Slicer",
           "ioValues": [
@@ -2426,23 +2486,23 @@
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.15384615384615385,
+              "x": 0.0165,
+              "y": 0.1,
               "uniqueID": "id-3025",
               "name": "Cutting_shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.24615384615384617,
+              "x": 0.0165,
+              "y": 0.16,
               "uniqueID": "id-3026",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.3384615384615385,
+              "x": 0.0165,
+              "y": 0.22,
               "uniqueID": "id-3027",
               "name": "Layer"
             },
@@ -2588,8 +2648,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.4670981661272923,
-          "y": 0.8290993071593533,
+          "x": 0.4666666666666667,
+          "y": 0.8043478260869565,
           "uniqueID": "id-3060",
           "name": "Slicer",
           "ioValues": [
@@ -2622,23 +2682,23 @@
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.15384615384615385,
+              "x": 0.0165,
+              "y": 0.1,
               "uniqueID": "id-3062",
               "name": "Cutting_shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.24615384615384617,
+              "x": 0.0165,
+              "y": 0.16,
               "uniqueID": "id-3063",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.3384615384615385,
+              "x": 0.0165,
+              "y": 0.22,
               "uniqueID": "id-3064",
               "name": "Layer"
             },
@@ -3079,14 +3139,14 @@
         {
           "atomType": "Input",
           "x": 0.0165,
-          "y": 0.15384615384615385,
+          "y": 0.1,
           "uniqueID": "id-3103",
           "name": "WoodThick"
         },
         {
           "atomType": "Input",
           "x": 0.0165,
-          "y": 0.24615384615384617,
+          "y": 0.16,
           "uniqueID": "id-3104",
           "name": "ObjectToCut",
           "type": "geometry"
@@ -3094,7 +3154,7 @@
         {
           "atomType": "Input",
           "x": 0.0165,
-          "y": 0.3384615384615385,
+          "y": 0.22,
           "uniqueID": "id-3105",
           "name": "GroupOfTen"
         },
@@ -3310,23 +3370,23 @@
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.15384615384615385,
+              "x": 0.0165,
+              "y": 0.1,
               "uniqueID": "id-3118",
               "name": "Cutting_shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.24615384615384617,
+              "x": 0.0165,
+              "y": 0.16,
               "uniqueID": "id-3119",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.3384615384615385,
+              "x": 0.0165,
+              "y": 0.22,
               "uniqueID": "id-3120",
               "name": "Layer"
             },
@@ -3506,23 +3566,23 @@
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.15384615384615385,
+              "x": 0.0165,
+              "y": 0.1,
               "uniqueID": "id-3128",
               "name": "Cutting_shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.24615384615384617,
+              "x": 0.0165,
+              "y": 0.16,
               "uniqueID": "id-3129",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.3384615384615385,
+              "x": 0.0165,
+              "y": 0.22,
               "uniqueID": "id-3130",
               "name": "Layer"
             },
@@ -3726,7 +3786,7 @@
             {
               "atomType": "Input",
               "x": 0.0165,
-              "y": 0.15384615384615385,
+              "y": 0.1,
               "uniqueID": "id-3138",
               "name": "Cutting_shape",
               "type": "geometry"
@@ -3734,14 +3794,14 @@
             {
               "atomType": "Input",
               "x": 0.0165,
-              "y": 0.24615384615384617,
+              "y": 0.16,
               "uniqueID": "id-3139",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
               "x": 0.0165,
-              "y": 0.3384615384615385,
+              "y": 0.22,
               "uniqueID": "id-3140",
               "name": "Layer"
             },
@@ -3921,23 +3981,23 @@
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.15384615384615385,
+              "x": 0.0165,
+              "y": 0.1,
               "uniqueID": "id-3148",
               "name": "Cutting_shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.24615384615384617,
+              "x": 0.0165,
+              "y": 0.16,
               "uniqueID": "id-3149",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.3384615384615385,
+              "x": 0.0165,
+              "y": 0.22,
               "uniqueID": "id-3150",
               "name": "Layer"
             },
@@ -4117,23 +4177,23 @@
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.15384615384615385,
+              "x": 0.0165,
+              "y": 0.1,
               "uniqueID": "id-3158",
               "name": "Cutting_shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.24615384615384617,
+              "x": 0.0165,
+              "y": 0.16,
               "uniqueID": "id-3159",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.3384615384615385,
+              "x": 0.0165,
+              "y": 0.22,
               "uniqueID": "id-3160",
               "name": "Layer"
             },
@@ -4313,23 +4373,23 @@
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.15384615384615385,
+              "x": 0.0165,
+              "y": 0.1,
               "uniqueID": "id-3168",
               "name": "Cutting_shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.24615384615384617,
+              "x": 0.0165,
+              "y": 0.16,
               "uniqueID": "id-3169",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.3384615384615385,
+              "x": 0.0165,
+              "y": 0.22,
               "uniqueID": "id-3170",
               "name": "Layer"
             },
@@ -4509,23 +4569,23 @@
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.15384615384615385,
+              "x": 0.0165,
+              "y": 0.1,
               "uniqueID": "id-3178",
               "name": "Cutting_shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.24615384615384617,
+              "x": 0.0165,
+              "y": 0.16,
               "uniqueID": "id-3179",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.3384615384615385,
+              "x": 0.0165,
+              "y": 0.22,
               "uniqueID": "id-3180",
               "name": "Layer"
             },
@@ -4683,10 +4743,6 @@
             {
               "name": "Woodthick",
               "ioValue": 3.2
-            },
-            {
-              "name": "Layer",
-              "ioValue": 18
             }
           ],
           "topLevel": false,
@@ -4705,23 +4761,23 @@
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.15384615384615385,
+              "x": 0.0165,
+              "y": 0.1,
               "uniqueID": "id-3188",
               "name": "Cutting_shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.24615384615384617,
+              "x": 0.0165,
+              "y": 0.16,
               "uniqueID": "id-3189",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.3384615384615385,
+              "x": 0.0165,
+              "y": 0.22,
               "uniqueID": "id-3190",
               "name": "Layer"
             },
@@ -4750,10 +4806,6 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "height",
-                  "ioValue": 3.2
                 }
               ]
             },
@@ -4763,16 +4815,6 @@
               "y": 0.3672055427251732,
               "uniqueID": "id-3193",
               "name": "(z-1)*w",
-              "ioValues": [
-                {
-                  "name": "z",
-                  "ioValue": 18
-                },
-                {
-                  "name": "w",
-                  "ioValue": 3.2
-                }
-              ],
               "currentEquation": "(z-1)*w"
             },
             {
@@ -4792,10 +4834,6 @@
                 {
                   "name": "yDist",
                   "ioValue": 0
-                },
-                {
-                  "name": "zDist",
-                  "ioValue": 54.400000000000006
                 }
               ]
             },
@@ -4879,10 +4917,6 @@
             {
               "name": "Woodthick",
               "ioValue": 3.2
-            },
-            {
-              "name": "Layer",
-              "ioValue": 19
             }
           ],
           "topLevel": false,
@@ -4901,23 +4935,23 @@
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.15384615384615385,
+              "x": 0.0165,
+              "y": 0.1,
               "uniqueID": "id-3198",
               "name": "Cutting_shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.24615384615384617,
+              "x": 0.0165,
+              "y": 0.16,
               "uniqueID": "id-3199",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.3384615384615385,
+              "x": 0.0165,
+              "y": 0.22,
               "uniqueID": "id-3200",
               "name": "Layer"
             },
@@ -4946,10 +4980,6 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "height",
-                  "ioValue": 3.2
                 }
               ]
             },
@@ -4959,16 +4989,6 @@
               "y": 0.3672055427251732,
               "uniqueID": "id-3203",
               "name": "(z-1)*w",
-              "ioValues": [
-                {
-                  "name": "z",
-                  "ioValue": 19
-                },
-                {
-                  "name": "w",
-                  "ioValue": 3.2
-                }
-              ],
               "currentEquation": "(z-1)*w"
             },
             {
@@ -4988,10 +5008,6 @@
                 {
                   "name": "yDist",
                   "ioValue": 0
-                },
-                {
-                  "name": "zDist",
-                  "ioValue": 57.6
                 }
               ]
             },
@@ -5075,10 +5091,6 @@
             {
               "name": "Woodthick",
               "ioValue": 3.2
-            },
-            {
-              "name": "Layer",
-              "ioValue": 20
             }
           ],
           "topLevel": false,
@@ -5097,23 +5109,23 @@
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.15384615384615385,
+              "x": 0.0165,
+              "y": 0.1,
               "uniqueID": "id-3208",
               "name": "Cutting_shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.24615384615384617,
+              "x": 0.0165,
+              "y": 0.16,
               "uniqueID": "id-3209",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.3384615384615385,
+              "x": 0.0165,
+              "y": 0.22,
               "uniqueID": "id-3210",
               "name": "Layer"
             },
@@ -5142,10 +5154,6 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "height",
-                  "ioValue": 3.2
                 }
               ]
             },
@@ -5155,16 +5163,6 @@
               "y": 0.3672055427251732,
               "uniqueID": "id-3213",
               "name": "(z-1)*w",
-              "ioValues": [
-                {
-                  "name": "z",
-                  "ioValue": 20
-                },
-                {
-                  "name": "w",
-                  "ioValue": 3.2
-                }
-              ],
               "currentEquation": "(z-1)*w"
             },
             {
@@ -5184,10 +5182,6 @@
                 {
                   "name": "yDist",
                   "ioValue": 0
-                },
-                {
-                  "name": "zDist",
-                  "ioValue": 60.800000000000004
                 }
               ]
             },
@@ -5501,66 +5495,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Readme",
-      "x": 0.06678921568627451,
-      "y": 0.48433048433048426,
-      "uniqueID": "id-7027",
-      "name": "README",
-      "ioValues": [
-        {
-          "name": "value",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "readMeText": "Load 3D model here",
-      "global": true
-    },
-    {
-      "atomType": "Readme",
-      "x": 0.2512254901960784,
-      "y": 0.9002849002849004,
-      "uniqueID": "id-7029",
-      "name": "README",
-      "ioValues": [
-        {
-          "name": "value",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "readMeText": "This section is to correct for geometry that doesn't read right in abundance from your model.  In this case there were parts with lots of faces intersecting at one point so the block just covers over and replaces that. ",
-      "global": true
-    },
-    {
-      "atomType": "Readme",
-      "x": 0.5428921568627452,
-      "y": 0.09686609686609686,
-      "uniqueID": "id-7031",
-      "name": "README",
-      "ioValues": [
-        {
-          "name": "value",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "readMeText": "This slicer is the basic atom that makes a large flat plane the thickness of your wood panel and then intersects it with the model to make a slice.  It is here just as a place to store it. The 10 slicers below are groups of 10 of these that are raised up in chunks. ",
-      "global": true
-    },
-    {
-      "atomType": "Readme",
-      "x": 0.5,
-      "y": 0.8660968660968661,
-      "uniqueID": "id-7034",
-      "name": "README",
-      "ioValues": [
-        {
-          "name": "value",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "readMeText": "Copy 10 slicers as needed.  Each one needs to be lifted up  by adding a group of 10 indicator.  Currently the assembly atom doesn't like empty things being added to it so disconnect the uneeded parts of the 10 slicer.  If you are loading your own shape you may need to reconnect parts inside there. ",
-      "global": true
     }
   ],
   "allConnectors": [
